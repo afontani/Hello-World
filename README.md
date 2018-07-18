@@ -6,4 +6,4 @@ This file provides information about all of the housing characteristics and thei
 
 ResStock is built upon the conditional probabilites of the housing characteristics.  Each housing characteristic has a set of dependencies and dependants.  An interactive dependency and dependents visualization is provided in the links below:
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/afontani/Hello-World/blob/master/resources/dependencyWheels/dep_wheels.html">Dependencies Dependency Wheel</a></p>
+<a href="http://htmlpreview.github.io/?https://github.com/afontani/Hello-World/blob/master/resources/dependencyWheels/dep_wheels.html">Dependencies Dependency Wheel</a>
