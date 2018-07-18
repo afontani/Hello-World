@@ -3,7 +3,7 @@
 This file provides information about all of the housing characteristics and their dependencies and options used in this project of ResStock.  The information is compiled from the `housing_characteristic_info.json` file in a more readable format.  
 
 ## Interactive visualization of the housing characteristic dependencies
-
+<html>
 <p class="lead">ResStock is built upon the conditional probabilites of the housing characteristics.  Each housing characteristic has a set of dependencies and dependants. In this dependency wheel, each chord in the disc represents a dependency.   Built with <a href="https://github.com/ mbostock/d3">d3.js</a> from the <a href="https://github.com/fzaninotto/DependencyWheel">fzaninotto/DependencyWheel</a> repository.</p>
 
 ### Dependency Wheel: Dependencies
