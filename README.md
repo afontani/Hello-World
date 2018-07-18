@@ -3,7 +3,7 @@
 This file provides information about all of the housing characteristics and their dependencies and options used in this project of ResStock.  The information is compiled from the `housing_characteristic_info.json` file in a more readable format.  
 
 ## Interactive visualization of the housing characteristic dependencies
-<html>
+
 <p class="lead">ResStock is built upon the conditional probabilites of the housing characteristics.  Each housing characteristic has a set of dependencies and dependants. In this dependency wheel, each chord in the disc represents a dependency.   Built with <a href="https://github.com/ mbostock/d3">d3.js</a> from the <a href="https://github.com/fzaninotto/DependencyWheel">fzaninotto/DependencyWheel</a> repository.</p>
 
 ### Dependency Wheel: Dependencies
@@ -97,3 +97,22 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 - PNNL: Pacific Northwest National Laboratory
 - RBSA: Residential Building Stock Assessment
 - RECS: Residential Energy Consumption Survey
+
+## The data sources for the housing characteristics
+
+Each housing characteristic was created from mostly published and in some cases purchased data. Some housing characteristics have a single data source while other housing characteristics have multiple data sources. These relationships between the housing characteristics and their data sources are displayed in the Sankey diagram and the legend below.
+
+### Legend
+The image below is a legend for the larger Sankey diagram.  The colors on the left side represent the different categories of housing characteristics, while the data source (using the acronyms above) are on the right side in white.
+
+![Sankey Diagram Legend](sankey_hc_data_sources_legend.png)
+
+### Data Sources Sankey Diagram
+A Sankey diagram of the housing characteristics and the sources that helped create the conditional distributions and measures in the ".tsv" files and the "option_lookup.tsv" files.
+
+![Sankey Diagram](sankey_hc_data_sources.png)
+
+# Detailed Housing Characteristic Information
+
+The information above helps elude to the structure and relationships between the housing characteristics and thier data sources.  A more detailed explaination of each housing characteristic is provided below.
+
