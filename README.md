@@ -1,6 +1,6 @@
-# Housing Characteristics Information
+# Los Angeles Department of Water and Power (LADWP) Project Folder
 
-This file provides information about all of the housing characteristics and their dependencies and options used in this project of ResStock.  The information is compiled from the `resources/housing_characteristic_info.json` file in a more readable format.
+This folder contains the ResStock inputs to model the residential building stock of the LADWP service area. The main inputs that characterize the building stock is the housing characteristics in the `housing_characteristics/` directory. Information about these characteristics can be found in the `resources/housing characteristics info.json` file. This file provides information about all of the housing characteristics and their dependencies and options used in this project of ResStock. And is used to create the dependency wheels, Sankey diagram, and the detailed housing characteristic information all found later in this file.
 
 ## Visualization of the Housing Characteristic Dependencies
 
@@ -8,31 +8,11 @@ ResStock is built upon the conditional probabilites of the housing characteristi
 
 <a href="http://htmlpreview.github.io/?https://github.com/afontani/Hello-World/blob/master/resources/dependencyWheels/dep_wheels.html">Dependencies/Dependants: Dependency Wheel</a>
 
-## Visualization of the Housing Characteristics and Their Corresponding Data Sources
+## Visualization of the Housing Characteristics and Data Sources
 
 the creating of each housing characteristics' probability distribution and their measure inputs are based on multiple data sources. To visualize these connections use the link below.
 
 <a href="https://rawcdn.githack.com/afontani/Hello-World/master/resources/sankeyDiagram/sankey_diagram_data_sources.html">Housing Characteristics and Data Sources</a>
-
-In the link above, some acronyms are used for the data sources.  These acronyms are the following:
-
-- ACCA: Air Conditioning Contractors of America
-- ACS: American Community Survey
-- AHS: American Housing Survey
-- BA: Building America
-- BAFDR: Building America Field Data Repository
-- DHWESG: Domestic Hot Water Event Schedule Generator
-- HES: Home Energy Saver
-- HIRL: Home Improvement Research Lab
-- HSP: House Simulation Protocols
-- IECC: International Energy Conservation Code
-- LBNL: Lawrence Berkely National Laboratory
-- NAHB: National Association of Home Builders
-- ORNL: Oak Ridge National Laboratory
-- OSM: OpenStreet Maps
-- PNNL: Pacific Northwest National Laboratory
-- RBSA: Residential Building Stock Assessment
-- RECS: Residential Energy Consumption Survey
 
 # Detailed Housing Characteristic Information
 
@@ -4187,3 +4167,5 @@ The data mainly comes from RECS, although it is assumed that all buildings in CR
 - 1 Pane
 - 2+ Pane
 - No Windows
+
+
