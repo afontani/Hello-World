@@ -12,7 +12,7 @@ ResStock is built upon the conditional probabilites of the housing characteristi
 
 the creating of each housing characteristics' probability distribution and their measure inputs are based on multiple data sources. To visualize these connections use the link below.
 
-<a href="https://rawcdn.githack.com/afontani/Hello-World/master/resources/sankeyDiagram/sankey_diagram_data_sources.html">Housing Characteristics and Data Sources</a>
+<a href="https://raw.githack.com/afontani/Hello-World/master/resources/sankeyDiagram/sankey_diagram_data_sources.html">Housing Characteristics and Data Sources</a>
 
 # Detailed Housing Characteristic Information
 
